@@ -13,7 +13,7 @@ public class Circle extends Shape{
     public void setRadius(double radius) {
 
         if(radius <= 0){
-            System.err.println("Invalid Width: " + radius);
+            System.err.println("Invalid Radius: " + radius);
             System.exit(1);
         }
 
@@ -42,11 +42,12 @@ public class Circle extends Shape{
     public String toString() {
         return "Circle{" +
                 "radius=" + radius +
-                "pi=" + pi +
+                ", pi=" + pi +
                 ", area='" + area() + '\'' +
                 ", perimeter='" + perimeter() + '\'' +
                 '}';
     }
+
 }
 /*
 Circle extends Shape:
