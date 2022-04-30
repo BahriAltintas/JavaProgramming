@@ -23,7 +23,6 @@ public abstract class Employee extends Person{
         return id;
     }
 
-
     public String getJobTitle() {
         return jobTitle;
     }
@@ -39,6 +38,8 @@ public abstract class Employee extends Person{
     public void setSalary(double salary) {
         this.salary = salary;
     }
+
+
 
     public abstract void work();
 
