@@ -1,4 +1,4 @@
-package day44_Abstract.animalTask;
+package day44_Abstraction.animalTask;
 
 public final class Dog extends Animal{
 

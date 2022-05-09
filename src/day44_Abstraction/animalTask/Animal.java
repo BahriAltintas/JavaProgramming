@@ -1,4 +1,4 @@
-package day44_Abstract.animalTask;
+package day44_Abstraction.animalTask;
 
 /*
 class Test{
