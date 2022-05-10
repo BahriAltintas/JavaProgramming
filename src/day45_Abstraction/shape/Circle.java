@@ -16,7 +16,7 @@ public class Circle extends Shape{
     }
 
     public void setRadius(double radius) {
-        if(radius < 0){
+        if(radius <= 0){
             throw new RuntimeException("Invalid radius: " + radius);
         }
 

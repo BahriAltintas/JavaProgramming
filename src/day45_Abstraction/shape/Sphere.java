@@ -1,8 +1,8 @@
 package day45_Abstraction.shape;
 
-public class Cylinder extends Shape implements Volume{
+public class Sphere extends Shape implements Volume{
 
-    public Cylinder(String name) {
+    public Sphere(String name) {
         super(name);
     }
 
